@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.container{
+    width:1140px;
+    margin: 0 auto;
+}
+
+.header-block{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.header-block1 a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-left: -30px;
+    text-decoration: none;
+}
+
+.header-block2 a{
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+#hero{
+    background: rgba(255, 165, 0, 0.43);
+    min-height: 120vh;
+
+}
+.hero-text{
+    margin-top: -100px;
+}
+.hero-text h4{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #291854;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.hero-text h1{
+    font-family: 'League Spartan',sans-serif;
+    font-style: normal;
+    width: 470px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    color: #190D37;
+    margin-bottom: 25px;
+}
+.hero-text p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #331E6A;
+    margin-bottom: 32px;
+}
+.hero-text button{
+    width: 138px;
+    height: 44px;
+    background: #2F2F2F;
+    border-radius: 4px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+.hero-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.my-photo img{
+    width: 550px;
+    height: 600px;
+    margin-top: 60px;
+    border-radius: 200px 0 0 200px;
+    margin-left: 100px;
+}
+#back-end{
+    background: rgba(255, 165, 0, 0.43);
+    min-height: 100vh;
+}
+
+.back-end h6{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    color: #2858FF;
+    text-align: center;
+}
+.back-end h1{
+    font-family: 'League Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+}
+.back-end p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #190D37;
+}
+.hero-block2{
+    width: 710px;
+    height: 600px;
+    border-radius: 0 0 0 200px;
+    background: rgba(21, 1, 1, 0.76);
+    margin-left: 150px;
+}
+
+.front-block{
+    /*position: absolute;*/
+    width: 340px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+.front-block h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 15px;
+
+
+}
+.front-block p{
+    width: 300px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #55206D;
+    margin-left: 20px;
+}
+
+.front-block2{
+    /*position: absolute;*/
+    width: 340px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.front-block2 h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 15px;
+
+
+}
+.front-block2 p{
+    width: 300px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #55206D;
+    margin-left: 20px;
+}
+
+.front-block3{
+    /*position: absolute;*/
+    width: 340px;
+    height: 291px;
+    background: #FFFFFF;
+    box-shadow: 6px 2px 25px -9px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.front-block3 h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 15px;
+
+
+}
+.front-block3 p{
+    width: 300px;
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #55206D;
+    margin-left: 20px;
+}
+
+.frontend{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nur img{
+    position: absolute;
+    width: 330px;
+    height: 300px;
+    left: 78px;
+    top: 1158px;
+}
+.nur2 img{
+    position: absolute;
+    width: 321px;
+    height: 300px;
+    left: 1027px;
+    top: 953px;
+}
+#projects{
+    background: rgba(255, 165, 0, 0.43);
+
+}
+.projects-block h1{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #2858FF;
+}
+.projects-block h4{
+    font-family: 'League Spartan',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    width: 700px;
+    text-align: center;
+    margin: 10px 0;
+    color: #000000;
+
+}
+.projects-block p{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #190D37;
+    width: 686px;
+}
+.projects-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.projects-block-one{
+   background: #19ACFF;
+    border-radius: 10px;
+padding: 44px 46px;
+    position: absolute;
+
+  }
+.projects-block-one div h1{
+    font-family: 'Poppins' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#project{
+    background: rgba(255, 165, 0, 0.43);
+
+}
